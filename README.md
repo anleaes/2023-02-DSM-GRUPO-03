@@ -23,3 +23,6 @@ python ..\manage.py createsuperuser
 # ou
 
 python ..\manage.py startapp categories
+
+# ou
+
