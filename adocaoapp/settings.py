@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'pessoa.apps.PessoaConfig',
     'ong.apps.OngConfig',
+    'especie.apps.EspecieConfig',
 ]
 
 MIDDLEWARE = [
