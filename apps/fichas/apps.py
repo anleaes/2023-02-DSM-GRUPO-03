@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class FichaConfig(AppConfig):
+class FichasConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ficha'
-    verbose_name = 'Ficha Medica'
+    name = 'fichas'
+    verbose_name = 'Ficha Medicas'
