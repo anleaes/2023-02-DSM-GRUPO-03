@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'pessoa.apps.PessoaConfig',
     'ong.apps.OngConfig',
     'especie.apps.EspecieConfig',
+    'ficha.apps.FichaConfig',
 ]
 
 MIDDLEWARE = [
