@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'ong.apps.OngConfig',
     'especie.apps.EspecieConfig',
     'ficha.apps.FichaConfig',
+    'veterinarios.apps.VeterinariosConfig',
 ]
 
 MIDDLEWARE = [
