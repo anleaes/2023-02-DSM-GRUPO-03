@@ -6,3 +6,5 @@ adocaoapp/__pycache__/*
 /apps/ong/migrations/*
 /apps/especie/__pycache__/*
 /apps/especie/migrations/*
+/apps/ficha/__pycache__/*
+/apps/ficha/migrations/*
