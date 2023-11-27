@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ong/', include('ong.urls', namespace='ong')),
     path('pessoa/', include('pessoa.urls', namespace='pessoa')),
+    path('adocao/', include('adocao.urls', namespace='adocao')),
 ]
