@@ -45,10 +45,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'pessoa.apps.PessoaConfig',
-    'ong.apps.OngConfig',
-    'especie.apps.EspecieConfig',
-    'ficha.apps.FichaConfig',
+    'pessoas.apps.PessoasConfig',
+    'ongs.apps.OngsConfig',
+    'especies.apps.EspeciesConfig',
+    'fichas.apps.FichasConfig',
     'veterinarios.apps.VeterinariosConfig',
 ]
 

@@ -19,8 +19,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('veterinarios/', include('veterinarios.urls', namespace='veterinarios')),
-    path('ficha/', include('ficha.urls', namespace='ficha')),
-    path('especie/', include('especie.urls', namespace='especie')),
-    path('ong/', include('ong.urls', namespace='ong')),
-    path('pessoa/', include('pessoa.urls', namespace='pessoa')),
+    path('fichas/', include('fichas.urls', namespace='fichas')),
+    path('especies/', include('especies.urls', namespace='especies')),
+    path('ongs/', include('ongs.urls', namespace='ongs')),
+    path('pessoas/', include('pessoas.urls', namespace='pessoas')),
 ]
