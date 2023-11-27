@@ -8,3 +8,5 @@ adocaoapp/__pycache__/*
 /apps/especie/migrations/*
 /apps/ficha/__pycache__/*
 /apps/ficha/migrations/*
+/apps/veterinario/__pycache__/*
+/apps/veterinario/migrations/*
