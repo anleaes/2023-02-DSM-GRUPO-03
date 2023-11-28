@@ -10,3 +10,5 @@ adocaoapp/__pycache__/*
 /apps/fichas/migrations/*
 /apps/veterinarios/__pycache__/*
 /apps/veterinarios/migrations/*
+/apps/animais/__pycache__/*
+/apps/animais/migrations/*
