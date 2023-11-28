@@ -5,7 +5,7 @@ from rest_framework import routers
 app_name = 'ongs'
 
 router = routers.DefaultRouter()
-router.register('ong', views.OngViewSet, basename='ong')
+router.register('', views.OngViewSet, basename='ong')
 
 urlpatterns = [
     path('', include(router.urls) )
