@@ -24,4 +24,5 @@ urlpatterns = [
     path('especies/', include('especies.urls', namespace='especies')),
     path('ongs/', include('ongs.urls', namespace='ongs')),
     path('pessoas/', include('pessoas.urls', namespace='pessoas')),
+    path('adocaos/', include('adocaos.urls', namespace='adocaos')),
 ]
