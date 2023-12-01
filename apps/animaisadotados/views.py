@@ -5,6 +5,6 @@ from .serializer import AnimaisadotadoSerializer
 
 # Create your views here.
 
-class AdocaoViewSet(viewsets.ModelViewSet):
+class AnimaisadotadoViewSet(viewsets.ModelViewSet):
     queryset = Animaisadotado.objects.all()
     serializer_class = AnimaisadotadoSerializer

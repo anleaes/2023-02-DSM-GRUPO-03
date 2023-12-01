@@ -5,7 +5,7 @@ from animais.models import Animal
 
 # Create your models here.
 
-class Animaisadotado (models.model) :
+class Animaisadotado (models.Model) :
     animal = models.ForeignKey(Animal, on_delete=models.CASCADE)
     data_adocao = models.ForeignKey(Adocao, on_delete=models.CASCADE)
     dono = models.ForeignKey(Pessoa, on_delete=models.CASCADE)

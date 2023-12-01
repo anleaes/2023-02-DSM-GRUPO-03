@@ -5,7 +5,7 @@ from animais.models import Animal
 
 # Create your models here.
 
-class Adocao (models.model) :
+class Adocao (models.Model) :
     animal = models.ForeignKey(Animal, on_delete=models.CASCADE)
     data_adocao = models.DateField('Data Adocao', auto_now=False, auto_now_add=False)
     dono = models.ForeignKey(Pessoa, on_delete=models.CASCADE)
